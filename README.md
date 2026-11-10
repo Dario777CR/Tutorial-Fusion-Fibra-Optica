@@ -1,24 +1,7 @@
-# Sistema Operativo
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Editores e IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Temporales y Logs
-*.tmp
-*.log
-
-
 # 📡 Manual Técnico: Fusión de Fibra Óptica y Presupuesto Óptico
 
 **Asignatura:** Infraestructura de Redes (TCB304)  
-**Unidad:** Unidad 2 - Infraestructura de redes de fibra óptica  
-**Sede:** INACAP Sede La Serena  
+**Unidad:** Unidad 2 - Infraestructura de redes de fibra óptica   
 **Estudiante:** Dario Antonio Carvajal Reines  
 **Carrera:** Ingeniería en Telecomunicaciones y Servicios Digitales  
 
@@ -35,45 +18,42 @@ desktop.ini
 
 ## 🥽 1. Seguridad y Manejo de Materiales
 
-El trabajo con fibra óptica exige el cumplimiento riguroso de protocolos de seguridad para prevenir lesiones por esquirlas de vidrio invisibles.
+El trabajo con fibra óptica exige el cumplimiento de protocolos de seguridad para prevenir lesiones por esquirlas de vidrio invisibles.
 
 ### Protocolos Obligatorios
 1. **Lentes de Seguridad:** Uso permanente de protección ocular para evitar el impacto de esquirlas de vidrio en los ojos.
 2. **Contenedor Rígido de Residuos:** Disposición inmediata de restos de fibra cortada en recipientes plásticos o metálicos rígidos debidamente rotulados.
 
-![Seguridad y EPP en Taller](assets/img/epp_seguridad.png)  
+![Seguridad y EPP en Taller]
 *Figura 1: Uso de EPP obligatorio y manejo seguro de residuos de vidrio en contenedor rígido.*
 
-> [!WARNING]
-> **ADVERTENCIA DE SEGURIDAD:** Las esquirlas de vidrio pueden penetrar la piel o ser ingeridas/inhaladas si no se recolectan adecuadamente. Queda estrictamente prohibido consumir alimentos o bebidas en el área de trabajo.
 
+> **ADVERTENCIA DE SEGURIDAD:** Las esquirlas de vidrio pueden penetrar la piel o ser ingeridas/inhaladas si no se recolectan adecuadamente.
 ---
 
 ## ✂️ 2. Preparación de la Fibra Óptica (Stripping y Limpieza)
 
 ### Paso 1: Stripping (Pelado de la Fibra)
 1. Utilizar la pinza peladora tri-hole (3 muescas) en la posición adecuada.
-2. Usar la muesca más pequeña para remover el recubrimiento primario (acrilato de 250 µm) hasta exponer la fibra desnuda a **125 µm** sin mellar el vidrio.
+2. Usar la muesca más pequeña para remover el recubrimiento primario hasta exponer la fibra de vidrio.
 3. Realizar el pelado en tramos cortos de 2 a 3 cm.
 
 ### Paso 2: Limpieza de Precisión
-1. Humedecer un paño libre de pelusa (*lint-free wipe*) con **alcohol isopropílico al 99.9% de pureza**.
+1. Humedecer un paño libre de pelusa con **alcohol isopropílico al 99.9% de pureza**.
 2. Envolver la fibra expuesta y deslizar el paño desde la base hacia la punta.
 3. Repetir la limpieza hasta escuchar el chirrido característico que confirma la ausencia de impurezas y grasas.
 
-![Stripping y Limpieza de la Fibra](assets/img/stripping_limpieza.png)  
-*Figura 2: Pelado de capa protectora a 125 µm y limpieza de precisión con alcohol isopropílico.*
 
-> [!WARNING]
+
 > **ADVERTENCIA TÉCNICA:** La limpieza debe ejecutarse SIEMPRE antes del corte con la cortadora de precisión (cleaver). Nunca limpie la fibra después de cortada, ya que recontaminará o fisurará el extremo del vidrio.
 
 ---
 
 ## 🔪 3. Corte de Precisión (Cleaving)
 
-1. Insertar con anticipación el **manguito termo-contraíble (heat shrink sleeve)** en uno de los hilos de fibra.
+1. Insertar con anticipación el **termo-contraíble (heat shrink sleeve)** en uno de los hilos de fibra.
 2. Colocar la fibra limpia en la guía milimétrica de la cortadora de precisión (*cleaver*), asegurando un largo expuesto de 10 mm a 16 mm.
-3. Presionar la tapa y deslizar el carro con disco de tungsteno para realizar una fractura plana perpendicular cercana a los **90° (< 0.5° de inclinación)**.
+3. Presionar la tapa y deslizar el carro para realizar una fractura plana perpendicular cercana a los **90° (< 0.5° de inclinación)**.
 
 ```text
 CORTE ÓPTIMO (90°):              CORTE DEFECTUOSO (Ángulo o Bisel):
@@ -83,9 +63,8 @@ CORTE ÓPTIMO (90°):              CORTE DEFECTUOSO (Ángulo o Bisel):
 [Pérdida típica: 0.01 - 0.03 dB] [Rechazado por la fusionadora]
 ```
 
-![Corte con Cleaver](assets/img/corte_cleaver_90.png)  
-*Figura 3: Operación de cortadora de precisión (cleaver) y verificación del ángulo perpendicular.*
 
+IMAGEN !!!!!!!!!!!!
 ---
 
 ## ⚡ 4. Proceso de Termofusión
@@ -98,8 +77,9 @@ CORTE ÓPTIMO (90°):              CORTE DEFECTUOSO (Ángulo o Bisel):
    * **Fusión:** Descarga principal de arco eléctrico que funde y une de forma homogénea ambos hilos.
 4. Deslizar la funda termo-contraíble sobre la zona empalmada y posicionarla en el horno integrado de la máquina (60 °C - 80 °C durante 20 segundos) para brindar protección mecánica.
 
-![Proceso de Termofusión](assets/img/fusion_arco_electrico.png)  
-*Figura 4: Alineación de núcleos en fusionadora por arco eléctrico y protección termo-contraíble.*
+IMAGEN !!!!!!!!!!!!!!
+
+
 
 ---
 
@@ -120,6 +100,8 @@ Donde:
 * $A_{fusion}$: Pérdida individual por fusión ($\text{dB}$).
 * $M_{GPON}$: Margen de seguridad y diseño para red GPON ($\text{dB}$).
 
+
+
 ---
 
 ### Tabla de Presupuesto Óptico (Enlace Modelo GPON Monomodo a 1310 nm)
@@ -134,6 +116,9 @@ Donde:
 
 ---
 
+
+
+
 ### Medición y Verificación de Resultados en Taller
 
 * **Estimación de la Fusionadora:** **0.02 dB**[cite: 1, 2].
@@ -141,6 +126,8 @@ Donde:
 * **Evaluación:** Dado que $0.02\text{ dB} \le 0.05\text{ dB}$, el empalme resulta **APROBADO**, garantizando la viabilidad técnica y operativa del enlace GPON[cite: 1, 2].
 
 ---
+
+
 
 ## ⚠️ 6. Advertencias sobre Errores Comunes
 
