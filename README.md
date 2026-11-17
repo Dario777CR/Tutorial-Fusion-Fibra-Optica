@@ -1,150 +1,110 @@
-# 📡 Manual Técnico: Fusión de Fibra Óptica y Presupuesto Óptico
+# 🔌 Manual Técnico: Termofusión de Fibra Óptica y Presupuesto Óptico
 
-**Asignatura:** Infraestructura de Redes (TCB304)  
-**Unidad:** Unidad 2 - Infraestructura de redes de fibra óptica   
-**Estudiante:** Dario Antonio Carvajal Reines  
-**Carrera:** Ingeniería en Telecomunicaciones y Servicios Digitales  
-
----
-
-## 📚 Glosario Técnico Exprés
-
-* **Núcleo (Core):** Centro de vidrio ultra puro por donde viaja la luz mediante el fenómeno de reflexión interna total.
-* **Revestimiento (Cladding):** Capa exterior de vidrio (125 µm) con menor índice de refracción que confina la luz en el núcleo.
-* **Cleaving (Corte de Precisión):** Proceso de fractura controlada del vidrio para lograr un extremo plano a 90° respecto al eje de la fibra.
-* **Atenuación:** Pérdida de potencia óptica de la señal expresada en decibelios (dB) a lo largo del enlace.
+* 📘 **Asignatura:** Infraestructura de Redes (TCB304)
+* 🎓 Carrera:** Ingeniería en Telecomunicaciones y Servicios Digitales
+* 👨‍💻 Autor: Darío Antonio Carvajal Reines
+* 📅 **Fecha: 14 Noviembre 2026
+* ⚡ Equipo Utilizado:** Fusionadora por Arco Eléctrico **Vcnex VFS-30** (Modo `SM00`)
 
 ---
 
-## 🥽 1. Seguridad y Manejo de Materiales
+## 📖 1. Glosario Técnico Exprés
 
-El trabajo con fibra óptica exige el cumplimiento de protocolos de seguridad para prevenir lesiones por esquirlas de vidrio invisibles.
-
-### Protocolos Obligatorios
-1. **Lentes de Seguridad:** Uso permanente de protección ocular para evitar el impacto de esquirlas de vidrio en los ojos.
-2. **Contenedor Rígido de Residuos:** Disposición inmediata de restos de fibra cortada en recipientes plásticos o metálicos rígidos debidamente rotulados.
-
-![Seguridad y EPP en Taller]
-*Figura 1: Uso de EPP obligatorio y manejo seguro de residuos de vidrio en contenedor rígido.*
-
-
-> **ADVERTENCIA DE SEGURIDAD:** Las esquirlas de vidrio pueden penetrar la piel o ser ingeridas/inhaladas si no se recolectan adecuadamente.
----
-
-## ✂️ 2. Preparación de la Fibra Óptica (Stripping y Limpieza)
-
-### Paso 1: Stripping (Pelado de la Fibra)
-1. Utilizar la pinza peladora tri-hole (3 muescas) en la posición adecuada.
-2. Usar la muesca más pequeña para remover el recubrimiento primario hasta exponer la fibra de vidrio.
-3. Realizar el pelado en tramos cortos de 2 a 3 cm.
-
-### Paso 2: Limpieza de Precisión
-1. Humedecer un paño libre de pelusa con **alcohol isopropílico al 99.9% de pureza**.
-2. Envolver la fibra expuesta y deslizar el paño desde la base hacia la punta.
-3. Repetir la limpieza hasta escuchar el chirrido característico que confirma la ausencia de impurezas y grasas.
-
-
-
-> **ADVERTENCIA TÉCNICA:** La limpieza debe ejecutarse SIEMPRE antes del corte con la cortadora de precisión (cleaver). Nunca limpie la fibra después de cortada, ya que recontaminará o fisurará el extremo del vidrio.
+* 🔦 **Núcleo (Core):Región central de vidrio de sílice dopado , por donde viaja la luz mediante reflexión interna total.
+* 🛡️ **Cladding (Revestimiento): Capa de vidrio con menor índice de refracción que rodea al núcleo para confinar el haz óptico.
+* ✂️ **Cleaving (Corte de Precisión):** Marcado y fractura mecánica controlada del vidrio para lograr una cara transversal limpia cercana 
+* 📉 **Atenuación:** Pérdida de potencia óptica a lo largo del enlace producida por absorción, dispersión, empalmes y conectores.
 
 ---
 
-## 🔪 3. Corte de Precisión (Cleaving)
+## 🦺 2. Seguridad, EPP y Gestión de Residuos
 
-1. Insertar con anticipación el **termo-contraíble (heat shrink sleeve)** en uno de los hilos de fibra.
-2. Colocar la fibra limpia en la guía milimétrica de la cortadora de precisión (*cleaver*), asegurando un largo expuesto de 10 mm a 16 mm.
-3. Presionar la tapa y deslizar el carro para realizar una fractura plana perpendicular cercana a los **90° (< 0.5° de inclinación)**.
+Antes de intervenir el cable de fibra óptica, se prepara la estación de trabajo verificando los Elementos de Protección Personal (EPP) y los contenedores de seguridad.
 
-```text
-CORTE ÓPTIMO (90°):              CORTE DEFECTUOSO (Ángulo o Bisel):
-+-----------------+              +-----------------/
-|                 | 90°          |                /  Ángulo > 1.0°
-+-----------------+              +---------------/
-[Pérdida típica: 0.01 - 0.03 dB] [Rechazado por la fusionadora]
-```
+![Estación de trabajo y EPP](assets/img/01-epp-estacion-trabajo.jpg)
 
+1. 🥽 **Protección Ocular y Manual:** Uso obligatorio de **lentes de seguridad transparentes** (visibles junto a la fusionadora) para proteger contra microfragmentos de vidrio y **guantes de precisión (*HyFlex*)** para manipular herramientas de corte con firmeza y sensibilidad táctil.
+2. 🗑️ **Disposición Segura de Residuos:** Todos los recortes de fibra desnuda de $125\ \mu\text{m}$ se depositan de inmediato en el **contenedor blanco con tapa amarilla** del kit (junto al dispensador de alcohol), evitando riesgos de punción cutánea.
 
-IMAGEN !!!!!!!!!!!!
----
-
-## ⚡ 4. Proceso de Termofusión
-
-1. Encender la fusionadora de arco eléctrico y seleccionar el programa de alineación según el tipo de fibra (ej. Monomodo ITU-T G.652).
-2. Posicionar los extremos de ambas fibras en las guías en V (*V-grooves*), asegurando que queden dentro del campo visual de las cámaras pero sin tocar los electrodos.
-3. Cerrar la cubierta para ejecutar la secuencia automática:
-   * **Limpieza por arco:** Descarga eléctrica breve para eliminar micro-polvo.
-   * **Alineación:** Motores de alta precisión alinean los núcleos/claddings en los ejes X e Y.
-   * **Fusión:** Descarga principal de arco eléctrico que funde y une de forma homogénea ambos hilos.
-4. Deslizar la funda termo-contraíble sobre la zona empalmada y posicionarla en el horno integrado de la máquina (60 °C - 80 °C durante 20 segundos) para brindar protección mecánica.
-
-IMAGEN !!!!!!!!!!!!!!
-
-
+> **⚠️ ADVERTENCIA DE SEGURIDAD:** Nunca mire directamente el extremo de una fibra conectada ni limpie restos de vidrio sobre la ropa o la mesa. Los fragmentos microscópicos de sílice pueden penetrar la piel o el globo ocular.
 
 ---
 
-## 📊 5. Análisis de Resultados y Presupuesto Óptico
+## 🛠️ 3. Guía Paso a Paso: Preparación y Termofusión por Arco Eléctrico
 
-El **Presupuesto Óptico** determina la atenuación máxima total permitida en el enlace para garantizar la potencia adecuada en la recepción de la señal.
+### 🔹 Paso 1: Remoción de Chaqueta Exterior y Elementos de Tracción
+1. Sujete el cable troncal de planta externa utilizando guantes de seguridad y realice un corte anular superficial en la cubierta negra de polietileno (PE) con cortacables o cuchillo retráctil.
+2. Tire del **hilo de rasgado rojo (*ripcord*)** en sentido longitudinal para abrir la cubierta sin dañar los tubos internos y recorte las fibras de aramida (Kevlar) amarillas.
 
-### Fórmula del Presupuesto Óptico
+![Remoción de chaqueta y exposición de Kevlar](assets/img/02-remocion-chaqueta-kevlar.jpg)
+![Aislamiento de tubos holgados en estación](assets/img/03-extraccion-buffer-hilos.jpg)
 
-$$A_{total} = (L \cdot \alpha) + (N_{conn} \cdot A_{conn}) + (N_{fusion} \cdot A_{fusion}) + M_{GPON}$$
-
-Donde:
-* $L$: Longitud total de la fibra (km).
-* $\alpha$: Atenuación lineal del hilo ($\text{dB/km}$).
-* $N_{conn}$: Número de conectores en el trayecto.
-* $A_{conn}$: Pérdida individual por conector ($\text{dB}$).
-* $N_{fusion}$: Número de empalmes por fusión.
-* $A_{fusion}$: Pérdida individual por fusión ($\text{dB}$).
-* $M_{GPON}$: Margen de seguridad y diseño para red GPON ($\text{dB}$).
-
-
+> **🚨 ERROR COMÚN:** Profundizar demasiado el corte inicial de la chaqueta exterior puede mellar o seccionar el tubo holgado (*buffer tube*) y quebrar los hilos internos antes de prepararlos.
 
 ---
 
-### Tabla de Presupuesto Óptico (Enlace Modelo GPON Monomodo a 1310 nm)
+### 🔹 Paso 2: Manguito Termo-contraíble, Stripping ($125\ \mu\text{m}$) y Limpieza
+1. **Antes de pelar el recubrimiento primario**, inserte el manguito termo-contraíble (*heat shrink sleeve*) por uno de los extremos del hilo.
+2. Emplee la pinza peladora (*stripper*) calibrada para retirar el acrilato de $250\ \mu\text{m}$ y dejar expuesto el **vidrio (cladding) de $125\ \mu\text{m}$** en un tramo de $30\text{ a }40\ \text{mm}$.
+3. Humedezca un paño libre de pelusa (**Kimwipes**) con **alcohol isopropílico de alta pureza ($\ge 99.5\%$)** y limpie el vidrio en un solo sentido desde el recubrimiento hacia la punta.
 
-| Elemento de la Red | Cantidad / Unidad | Valor Unitario Teórico | Pérdida Total Teórica (dB) |
-| :--- | :--- | :--- | :--- |
-| **Fibra Monomodo (ITU-T G.652.D @ 1310nm)** | 2.5 km | 0.35 dB/km | **0.875 dB** |
-| **Conectores Ópticos (SC/APC)** | 2 unidades | 0.30 dB/conector | **0.600 dB** |
-| **Empalmes por Fusión** | 2 empalmes | 0.05 dB/empalme | **0.100 dB** |
-| **Margen de Seguridad / GPON** | 1 sistema | 3.00 dB | **3.000 dB** |
-| **ATENUACIÓN TOTAL TEÓRICA PERMITIDA** | - | - | **4.575 dB** |
+![Fibra desnuda y paños Kimwipes](assets/img/04-limpieza-alcohol-kimwipes.jpg)
 
----
-
-
-
-
-### Medición y Verificación de Resultados en Taller
-
-* **Estimación de la Fusionadora:** **0.02 dB**[cite: 1, 2].
-* **Criterio de Aprobación Standard:** Pérdida $\le 0.05\text{ dB}$ por empalme[cite: 2].
-* **Evaluación:** Dado que $0.02\text{ dB} \le 0.05\text{ dB}$, el empalme resulta **APROBADO**, garantizando la viabilidad técnica y operativa del enlace GPON[cite: 1, 2].
+> **🚨 ERROR COMÚN:** Apoyar el hilo limpio sobre la mesa o tocarlo con los guantes contamina el vidrio con polvo o grasa, generando burbujas en el arco eléctrico y pérdidas superiores a $0.1\ \text{dB}$.
 
 ---
 
+### 🔹 Paso 3: Corte de Precisión (Cleaving a $90^\circ$)
+1. Abra la cortadora de precisión (*cleaver*) y verifique que la cuchilla de carburo de tungsteno esté retraída.
+2. Coloque la fibra limpia en la canaleta guía ($250\ \mu\text{m}$ / $900\ \mu\text{m}$) dejando $10\text{ a }16\ \text{mm}$ de vidrio expuesto según la regla graduada.
+3. Cierre la prensa, accione el carro de corte en un movimiento continuo y deposite el sobrante en el recipiente de desechos.
 
+![Corte de precisión en cleaver](assets/img/05-corte-precision-cleaver.jpg)
 
-## ⚠️ 6. Advertencias sobre Errores Comunes
-
-> [!WARNING]
-> **ERROR 1: Omitir la inserción del termo-contraíble.**  
-> Si se realiza la fusión sin haber colocado previamente el manguito en el hilo, habrá que cortar la fibra y repetir todo el proceso.
-
-> [!WARNING]
-> **ERROR 2: Contacto manual con la fibra desnudada.**  
-> Tocar el vidrio expuesto deja residuos grasos corporales que alteran el arco eléctrico y causan atenuaciones superiores a 0.5 dB.
-
-> [!WARNING]
-> **ERROR 3: Ángulo de cleaving fuera de norma (> 1.0°).**  
-> Si la fusionadora indica fallo en el ángulo de corte, cancele el ciclo, descarte el extremo y realice un nuevo corte en la cleaver.
+> **⚠️ ADVERTENCIA DE CALIDAD:** Un ángulo de corte defectuoso ($> 1.5^\circ$), astillado o con rebabas provocará que la fusionadora detenga el proceso y exija repetir el pelado, limpieza y corte.
 
 ---
 
-## 📑 Referencias Técnicas
-1. Recommendation ITU-T G.652 (11/2016): *Characteristics of a single-mode optical fibre and cable*.
-2. Manual de Asignatura TCB304: *Infraestructura de Redes - Unidad 2: Planta Interna y Externa*, INACAP[cite: 1].
+### 🔹 Paso 4: Alineación de Núcleos y Termofusión (Vcnex VFS-30)
+1. Levante la cubierta protectora y las prensas de la fusionadora **Vcnex VFS-30**.
+2. Posicione cuidadosamente ambos extremos sobre las **ranuras en V (*V-grooves*)**, ubicando las puntas entre los electrodos sin tocar las guías cerámicas.
+3. Cierre las prensas y la tapa superior para ejecutar el ciclo automático en modo `SM00`: limpieza por pre-arco, medición angular, **alineación de núcleos en ejes X/Y** y descarga del arco eléctrico.
+
+![Posicionamiento de fibras en V-grooves](assets/img/06-posicionamiento-fusionadora.jpg)
+![Resultado en pantalla VFS-30: Pérdida 0.01 dB](assets/img/07-resultado-pantalla-001db.jpg)
+
+---
+
+### 🔹 Paso 5: Protección Mecánica con Manguito Termo-contraíble
+1. Retire suavemente la fibra fusionada manteniendo leve tensión axial y deslice el manguito termo-contraíble hasta centrar la aguja de acero inoxidable sobre el punto de empalme.
+2. Introduzca el conjunto en el **horno calefactor izquierdo** de la VFS-30 y presione el botón térmico (indicador LED rojo encendido) hasta completar el sellado.
+
+![Horno termo-contraíble activo](assets/img/08-horno-termocontraible.jpg)
+![Empalme finalizado con manguito curado](assets/img/09-empalme-final-protegido.jpg)
+
+---
+
+## 📊 4. Análisis de Resultados y Presupuesto Óptico (Enlace GPON)
+
+Para validar la viabilidad del enlace bajo estándar **ITU-T G.984 (GPON Clase B+)**, se calcula la atenuación teórica total considerando fibra monomodo OS2 ($1310/1490\ \text{nm}$), empalmes por fusión, conectores y margen operativo.
+
+### 🧮 4.1. Tabla de Cálculo del Presupuesto Óptico
+
+| Componente del Enlace | Cantidad | Atenuación Unitaria Estándar | Pérdida Total ($\text{dB}$) | Referencia / Norma |
+| :--- | :---: | :---: | :---: | :--- |
+| 🌐 Fibra Óptica Monomodo ($1310\ \text{nm}$) | $2.5\ \text{km}$ | $0.35\ \text{dB/km}$ | $0.88\ \text{dB}$ | ITU-T G.652.D |
+| ⚡ Empalmes por Termofusión | $2\ \text{unid.}$ | $0.05\ \text{dB/empalme}$ | $0.10\ \text{dB}$ | TIA-568.3-D |
+| 🔌 Conectores Ópticos (SC/APC) | $2\ \text{pares}$ | $0.30\ \text{dB/par}$ | $0.60\ \text{dB}$ | TIA-568.3-D |
+| 🔀 Divisor Óptico (Splitter $1:8$) | $1\ \text{unid.}$ | $10.50\ \text{dB}$ | $10.50\ \text{dB}$ | Arquitectura FTTH/GPON |
+| 🛡️ Margen de Seguridad y Envejecimiento | $1\ \text{global}$ | $3.00\ \text{dB}$ | $3.00\ \text{dB}$ | Buena práctica Planta Externa |
+| **🎯 ATENUACIÓN TOTAL ESTIMADA** | — | — | **$15.08\ \text{dB}$** | **✅ Cumple GPON Clase B+ ($\le 28\ \text{dB}$)** |
+
+### 🔬 4.2. Registro de Medición y Verificación en Taller
+
+| Parámetro Evaluado | Valor Obtenido en Taller | Umbral Máximo Permitido | Estado |
+| :--- | :---: | :---: | :---: |
+| ⚙️ **Perfil de Fusión Utilizado** | `SM00` (Monomodo estándar) | Compatible ITU-T G.652 | ✅ Aprobado |
+| 📉 **Pérdida estimada por fusionadora** | **$0.01\ \text{dB}$** | $\le 0.05\ \text{dB}$ | 🌟 Sobresaliente |
+| 🔍 **Integridad física del manguito** | Centrado, transparente y sin burbujas | Sin burbujas ni exposición | ✅ Aprobado |
+
+> **💡 Conclusión Técnica:** La termofusión ejecutada en la **Vcnex VFS-30** obtuvo una pérdida estimada de **$0.01\ \text{dB}$** (cinco veces inferior al umbral máximo normativo de $0.05\ \text{dB}$), evidenciando un corte perpendicular limpio y una alineación de núcleos óptima. Integrado en el enlace GPON de $2.5\ \text{km}$ con splitter $1:8$ (**$15.08\ \text{dB}$** de pérdida total), el sistema mantiene un margen de seguridad superior a $12.9\ \text{dB}$ respecto al presupuesto máximo de $28\ \text{dB}$ de la Clase B+.
