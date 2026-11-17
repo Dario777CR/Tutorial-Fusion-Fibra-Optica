@@ -24,7 +24,7 @@
 Antes de intervenir el cable de fibra óptica, se prepara la estación de trabajo verificando los Elementos de Protección Personal (EPP) y los contenedores de seguridad.
 
 <p align="center">
-  <img src="assets/img/01-epp-estacion-trabajo.jpg" alt="Estación de trabajo y EPP" width="420" /><br>
+  <img src="assets/img/01-epp-estacion-trabajo.jpg.jpeg" alt="Estación de trabajo y EPP" width="420" /><br>
   <sub><b>Fig 1.</b> Estación de trabajo, lentes de seguridad, guantes HyFlex y contenedor amarillo de desechos.</sub>
 </p>
 
@@ -44,11 +44,11 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
 <table>
   <tr>
     <td align="center">
-      <img src="assets/img/02-remocion-chaqueta-kevlar.jpg" alt="Remoción de chaqueta y Kevlar" width="350" /><br>
+      <img src="assets/img/02-remocion-chaqueta-kevlar.jpg.jpeg" alt="Remoción de chaqueta y Kevlar" width="350" /><br>
       <sub><b>Fig 2.</b> Remoción de chaqueta exterior y Kevlar.</sub>
     </td>
     <td align="center">
-      <img src="assets/img/03-extraccion-buffer-hilos.jpg" alt="Aislamiento de tubos holgados" width="350" /><br>
+      <img src="assets/img/03-extraccion-buffer-hilos.jpg.jpeg" alt="Aislamiento de tubos holgados" width="350" /><br>
       <sub><b>Fig 3.</b> Aislamiento de tubos holgados en estación.</sub>
     </td>
   </tr>
@@ -64,7 +64,7 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
 3. Humedezca un paño libre de pelusa (**Kimwipes**) con **alcohol isopropílico de alta pureza ($\ge 99.5\%$)** y limpie el vidrio en un solo sentido desde el recubrimiento hacia la punta.
 
 <p align="center">
-  <img src="assets/img/04-limpieza-alcohol-kimwipes.jpg" alt="Fibra desnuda y paños Kimwipes" width="420" /><br>
+  <img src="assets/img/04-limpieza-alcohol-kimwipes.jpg.jpeg" alt="Fibra desnuda y paños Kimwipes" width="420" /><br>
   <sub><b>Fig 4.</b> Hilos de fibra desnuda junto a paños libres de pelusa Kimwipes.</sub>
 </p>
 
@@ -78,7 +78,7 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
 3. Cierre la prensa, accione el carro de corte en un movimiento continuo y deposite el sobrante en el recipiente de desechos.
 
 <p align="center">
-  <img src="assets/img/05-corte-precision-cleaver.jpg" alt="Corte de precisión en cleaver" width="420" /><br>
+  <img src="assets/img/05-corte-precision-cleaver.jpg.jpeg" alt="Corte de precisión en cleaver" width="420" /><br>
   <sub><b>Fig 5.</b> Posicionamiento del hilo en cortadora de precisión (cleaver) para corte a 90°.</sub>
 </p>
 
@@ -94,11 +94,11 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
 <table>
   <tr>
     <td align="center">
-      <img src="assets/img/06-posicionamiento-fusionadora.jpg" alt="Posicionamiento en V-grooves" width="350" /><br>
+      <img src="assets/img/06-posicionamiento-fusionadora.jpg.jpeg" alt="Posicionamiento en V-grooves" width="350" /><br>
       <sub><b>Fig 6.</b> Sujeción de fibras en ranuras en V.</sub>
     </td>
     <td align="center">
-      <img src="assets/img/07-resultado-pantalla-001db.jpg" alt="Pérdida 0.01 dB en pantalla" width="350" /><br>
+      <img src="assets/img/07-resultado-pantalla-001db.jpg.jpeg" alt="Pérdida 0.01 dB en pantalla" width="350" /><br>
       <sub><b>Fig 7.</b> Pantalla VFS-30: Pérdida estimada de 0.01 dB.</sub>
     </td>
   </tr>
@@ -113,11 +113,11 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
 <table>
   <tr>
     <td align="center">
-      <img src="assets/img/08-horno-termocontraible.jpg" alt="Horno termo-contraíble activo" width="350" /><br>
+      <img src="assets/img/08-horno-termocontraible.jpg.jpeg" alt="Horno termo-contraíble activo" width="350" /><br>
       <sub><b>Fig 8.</b> Contracción térmica en horno calefactor.</sub>
     </td>
     <td align="center">
-      <img src="assets/img/09-empalme-final-protegido.jpg" alt="Empalme protegido terminado" width="350" /><br>
+      <img src="assets/img/09-empalme-final-protegido.jpg.jpeg" alt="Empalme protegido terminado" width="350" /><br>
       <sub><b>Fig 9.</b> Empalme finalizado con manguito curado.</sub>
     </td>
   </tr>
