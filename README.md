@@ -1,21 +1,19 @@
 # 🔌 Manual Técnico: Termofusión de Fibra Óptica y Presupuesto Óptico
 
-* 📘 **Asignatura:** Infraestructura de Redes (TCB304)
-* 🎓 **Carrera:** Ingeniería en Telecomunicaciones y Servicios Digitales
-* 🏫 **Sede:** INACAP La Serena
-* 👨‍💻 **Autor:** Darío Antonio Carvajal Reines
-* 👨‍🏫 **Docente:** [Nombre del Docente]
-* 📅 **Fecha:** Noviembre 2026
-* ⚡ **Equipo Utilizado:** Fusionadora por Arco Eléctrico **Vcnex VFS-30** (Modo `SM00`)
+* 📘  Infraestructura de Redes (TCB304)
+* 🎓  Ingeniería en Telecomunicaciones y Servicios Digitales
+* 👨‍💻  Autor: Darío Antonio Carvajal Reines
+* 📅  Fecha: 14 Noviembre 2026
+* 
 
 ---
 
 ## 📖 1. Glosario Técnico Exprés
 
-* 🔦 **Núcleo (Core):** Región central de vidrio de sílice dopado ($9\ \mu\text{m}$ en monomodo) por donde viaja la luz mediante reflexión interna total.
-* 🛡️ **Cladding (Revestimiento):** Capa de vidrio de $125\ \mu\text{m}$ con menor índice de refracción que rodea al núcleo para confinar el haz óptico.
-* ✂️ **Cleaving (Corte de Precisión):** Marcado y fractura mecánica controlada del vidrio para lograr una cara transversal limpia cercana a $90^\circ$.
-* 📉 **Atenuación:** Pérdida de potencia óptica a lo largo del enlace ($\text{dB}$ o $\text{dB/km}$) producida por absorción, dispersión, empalmes y conectores.
+* 🔦 Núcleo (Core):Región central de vidrio de sílice dopado por donde viaja la luz mediante reflexión interna total.
+* 🛡️ Cladding (Revestimiento): Capa de vidrio de con menor índice de refracción que rodea al núcleo para confinar el haz óptico.
+* ✂️ Cleaving (Corte de Precisión):Marcado y fractura mecánica controlada del vidrio para lograr una cara transversal limpia.
+* 📉 Atenuación:Pérdida de potencia óptica a lo largo del enlace producida por absorción, dispersión, empalmes y conectores.
 
 ---
 
@@ -28,18 +26,17 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
   <sub><b>Fig 1.</b> Estación de trabajo, lentes de seguridad, guantes HyFlex y contenedor amarillo de desechos.</sub>
 </p>
 
-1. 🥽 **Protección Ocular y Manual:** Uso obligatorio de **lentes de seguridad transparentes** (visibles junto a la fusionadora) para proteger contra microfragmentos de vidrio y **guantes de precisión (*HyFlex*)** para manipular herramientas de corte con firmeza y sensibilidad táctil.
-2. 🗑️ **Disposición Segura de Residuos:** Todos los recortes de fibra desnuda de $125\ \mu\text{m}$ se depositan de inmediato en el **contenedor blanco con tapa amarilla** del kit (junto al dispensador de alcohol), evitando riesgos de punción cutánea.
-
-> **⚠️ ADVERTENCIA DE SEGURIDAD:** Nunca mire directamente el extremo de una fibra conectada ni limpie restos de vidrio sobre la ropa o la mesa. Los fragmentos microscópicos de sílice pueden penetrar la piel o el globo ocular.
-
+1. 🥽 Protección Ocular y Manual: Uso obligatorio de **lentes de seguridad** (visibles junto a la fusionadora) para proteger contra microfragmentos de vidrio y **guantes de precisión para manipular herramientas de corte con firmeza.
+2. 🗑️ **Disposición Segura de Residuos:** Todos los recortes de fibra se depositan de inmediato en el contenedor.
+   
+> **⚠️ ADVERTENCIA DE SEGURIDAD:** Nunca mire directamente el extremo de una fibra conectada ni limpie restos de vidrio sobre la ropa o la mesa. Los fragmentos microscópicos de sílice pueden penetrar la piel.
 ---
 
-## 🛠️ 3. Guía Paso a Paso: Preparación y Termofusión por Arco Eléctrico
+## 🛠️ 3.  Paso a Paso: Termofusión por Arco Eléctrico
 
 ### 🔹 Paso 1: Remoción de Chaqueta Exterior y Elementos de Tracción
 1. Sujete el cable troncal de planta externa utilizando guantes de seguridad y realice un corte anular superficial en la cubierta negra de polietileno (PE) con cortacables o cuchillo retráctil.
-2. Tire del **hilo de rasgado rojo (*ripcord*)** en sentido longitudinal para abrir la cubierta sin dañar los tubos internos y recorte las fibras de aramida (Kevlar) amarillas.
+2. Tire del hilo de rasgado rojo (*ripcord*)** en sentido longitudinal para abrir la cubierta sin dañar los tubos internos y recorte las fibras de aramida (Kevlar) amarillas.
 
 <table>
   <tr>
@@ -54,27 +51,25 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
   </tr>
 </table>
 
-> **🚨 ERROR COMÚN:** Profundizar demasiado el corte inicial de la chaqueta exterior puede mellar o seccionar el tubo holgado (*buffer tube*) y quebrar los hilos internos antes de prepararlos.
 
 ---
 
-### 🔹 Paso 2: Manguito Termo-contraíble, Stripping ($125\ \mu\text{m}$) y Limpieza
-1. **Antes de pelar el recubrimiento primario**, inserte el manguito termo-contraíble (*heat shrink sleeve*) por uno de los extremos del hilo.
-2. Emplee la pinza peladora (*stripper*) calibrada para retirar el acrilato de $250\ \mu\text{m}$ y dejar expuesto el **vidrio (cladding) de $125\ \mu\text{m}$** en un tramo de $30\text{ a }40\ \text{mm}$.
-3. Humedezca un paño libre de pelusa (**Kimwipes**) con **alcohol isopropílico de alta pureza ($\ge 99.5\%$)** y limpie el vidrio en un solo sentido desde el recubrimiento hacia la punta.
+### 🔹 Paso 2: Manguito Termo-contraíble y Limpieza
+1. Antes de pelar el recubrimiento primario, inserte el manguito termo-contraíble  por uno de los extremos del hilo.
+2. Emplee la pinza peladora calibrada para retirar el acrilato y dejar expuesto el vidrio.
+3. Humedezca un paño libre de pelusa con **alcohol isopropílico  y limpie el vidrio en un solo sentido desde el recubrimiento hacia la punta.
 
 <p align="center">
   <img src="assets/img/04-limpieza-alcohol-kimwipes.jpg.jpeg" alt="Fibra desnuda y paños Kimwipes" width="420" /><br>
   <sub><b>Fig 4.</b> Hilos de fibra desnuda junto a paños libres de pelusa Kimwipes.</sub>
 </p>
 
-> **🚨 ERROR COMÚN:** Apoyar el hilo limpio sobre la mesa o tocarlo con los guantes contamina el vidrio con polvo o grasa, generando burbujas en el arco eléctrico y pérdidas superiores a $0.1\ \text{dB}$.
 
 ---
 
-### 🔹 Paso 3: Corte de Precisión (Cleaving a $90^\circ$)
-1. Abra la cortadora de precisión (*cleaver*) y verifique que la cuchilla de carburo de tungsteno esté retraída.
-2. Coloque la fibra limpia en la canaleta guía ($250\ \mu\text{m}$ / $900\ \mu\text{m}$) dejando $10\text{ a }16\ \text{mm}$ de vidrio expuesto según la regla graduada.
+### 🔹 Paso 3: Corte de Precisión 
+1. Abra la cortadora de precisión y verifique que la cuchilla de carburo de tungsteno esté retraída.
+2. Coloque la fibra limpia en la canaleta guía de vidrio expuesto según la regla graduada.
 3. Cierre la prensa, accione el carro de corte en un movimiento continuo y deposite el sobrante en el recipiente de desechos.
 
 <p align="center">
@@ -82,15 +77,14 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
   <sub><b>Fig 5.</b> Posicionamiento del hilo en cortadora de precisión (cleaver) para corte a 90°.</sub>
 </p>
 
-> **⚠️ ADVERTENCIA DE CALIDAD:** Un ángulo de corte defectuoso ($> 1.5^\circ$), astillado o con rebabas provocará que la fusionadora detenga el proceso y exija repetir el pelado, limpieza y corte.
-
 ---
 
-### 🔹 Paso 4: Alineación de Núcleos y Termofusión (Vcnex VFS-30)
-1. Levante la cubierta protectora y las prensas de la fusionadora **Vcnex VFS-30**.
-2. Posicione cuidadosamente ambos extremos sobre las **ranuras en V (*V-grooves*)**, ubicando las puntas entre los electrodos sin tocar las guías cerámicas.
-3. Cierre las prensas y la tapa superior para ejecutar el ciclo automático en modo `SM00`: limpieza por pre-arco, medición angular, **alineación de núcleos en ejes X/Y** y descarga del arco eléctrico.
+### 🔹 Paso 4: Alineación de Núcleos y Termofusión 
+1. Levante la cubierta protectora y las prensas de la fusionadora 
+2. Posicione cuidadosamente ambos extremos sobre las ranuras en V , ubicando las puntas entre los electrodos sin tocar las guías cerámicas.
+3. Cierre las prensas y la tapa superior para ejecutar el ciclo automático|
 
+   
 <table>
   <tr>
     <td align="center">
@@ -108,7 +102,7 @@ Antes de intervenir el cable de fibra óptica, se prepara la estación de trabaj
 
 ### 🔹 Paso 5: Protección Mecánica con Manguito Termo-contraíble
 1. Retire suavemente la fibra fusionada manteniendo leve tensión axial y deslice el manguito termo-contraíble hasta centrar la aguja de acero inoxidable sobre el punto de empalme.
-2. Introduzca el conjunto en el **horno calefactor izquierdo** de la VFS-30 y presione el botón térmico (indicador LED rojo encendido) hasta completar el sellado.
+2. Introduzca el conjunto en el horno calefactor izquierdo y presione el botón térmico (indicador LED rojo encendido) hasta completar el sellado.
 
 <table>
   <tr>
@@ -148,4 +142,4 @@ Para validar la viabilidad del enlace bajo estándar **ITU-T G.984 (GPON Clase B
 | 📉 **Pérdida estimada por fusionadora** | **$0.01\ \text{dB}$** | $\le 0.05\ \text{dB}$ | 🌟 Sobresaliente |
 | 🔍 **Integridad física del manguito** | Centrado, transparente y sin burbujas | Sin burbujas ni exposición | ✅ Aprobado |
 
-> **💡 Conclusión Técnica:** La termofusión ejecutada en la **Vcnex VFS-30** obtuvo una pérdida estimada de **$0.01\ \text{dB}$** (cinco veces inferior al umbral máximo normativo de $0.05\ \text{dB}$), evidenciando un corte perpendicular limpio y una alineación de núcleos óptima. Integrado en el enlace GPON de $2.5\ \text{km}$ con splitter $1:8$ (**$15.08\ \text{dB}$** de pérdida total), el sistema mantiene un margen de seguridad superior a $12.9\ \text{dB}$ respecto al presupuesto máximo de $28\ \text{dB}$ de la Clase B+.
+> **💡 Conclusión Técnica:** La termofusión ejecutada  obtuvo una pérdida estimada de **$0.01\ \text{dB}$** (cinco veces inferior al umbral máximo normativo de $0.05\ \text{dB}$), evidenciando un corte  limpio y una alineación óptima.
