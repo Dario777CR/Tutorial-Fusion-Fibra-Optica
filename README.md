@@ -21,7 +21,9 @@
 
 Antes de intervenir el cable de fibra óptica, se prepara la estación de trabajo verificando los Elementos de Protección Personal (EPP) y los contenedores de seguridad.
 
-![Estación de trabajo y EPP](assets/img/01-epp-estacion-trabajo.jpg)
+![Estación de trabajo y EPP]
+<img width="960" height="1280" alt="WhatsApp Image 2026-11-10 at 12 48 19 PM" src="https://github.com/user-attachments/assets/7de3956a-a95f-4294-8a5a-86b7506b9652" />
+
 
 1. 🥽 **Protección Ocular y Manual:** Uso obligatorio de **lentes de seguridad transparentes** (visibles junto a la fusionadora) para proteger contra microfragmentos de vidrio y **guantes de precisión (*HyFlex*)** para manipular herramientas de corte con firmeza y sensibilidad táctil.
 2. 🗑️ **Disposición Segura de Residuos:** Todos los recortes de fibra desnuda de $125\ \mu\text{m}$ se depositan de inmediato en el **contenedor blanco con tapa amarilla** del kit (junto al dispensador de alcohol), evitando riesgos de punción cutánea.
